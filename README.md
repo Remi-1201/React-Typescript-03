@@ -2,7 +2,7 @@
 
 ### Section 12 - 実践アプリ作成（Chakra UI）
 
-1.
+1- Chakra UI の紹介
 
 ### Links
 
