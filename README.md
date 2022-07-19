@@ -5,10 +5,11 @@
 1. Chakra UI の紹介
 2. Global なスタイルを設定する
 3. ルーティングの作成
+4. ヘッダーの作成
 
 ### Links
 
-- [成果物 (Codesandbox)](https://lxuid2.csb.app/)
+- [成果物 (User Control Application)](https://lxuid2.csb.app/)
 
 - [Chakra UI](https://chakra-ui.com/)
 

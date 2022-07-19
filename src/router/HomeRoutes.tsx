@@ -21,7 +21,7 @@ export const homeRoutes = [
     children: <Setting />
   },
   {
-    // urlが /xxxxx だけではなく、home/xxxxxの場合でもPage404が表示するように設定
+    // 3- urlが /xxxxx だけではなく、home/xxxxxの場合でもPage404が表示するように設定
     path: "*",
     exact: false,
     children: <Page404 />
