@@ -1,14 +1,8 @@
 // 関数コンポネントなので VFC で型定義, memoで不必要な再レンダリングを防ぐ
-import {
-  Box,
-  Button,
-  Divider,
-  Flex,
-  Heading,
-  Input,
-  Stack
-} from "@chakra-ui/react";
+import { Box, Divider, Flex, Heading, Input, Stack } from "@chakra-ui/react";
 import { memo, VFC } from "react";
+
+import { PrimaryButton } from "../atoms/button/PrimaryButton";
 
 // propsはないので空にしておく
 export const Login: VFC = memo(() => {
@@ -21,9 +15,9 @@ export const Login: VFC = memo(() => {
         <Divider my={4} />
         <Stack spacing={6} py={4} px={10}>
           <Input placeholder="User ID" />
-          <Button bg="teal.400" color="white" _hover={{ opacity: 0.8 }}>
-            Login
-          </Button>
+          {/* 8- PrimaryButton = parent component
+          - "Login" = children*/}
+          <PrimaryButton>Login</PrimaryButton>
         </Stack>
       </Box>
     </Flex>
