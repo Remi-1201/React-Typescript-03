@@ -10,6 +10,7 @@
 6. ヘッダーの作成(ルーティング機能実装)
 7. ログイン画面の作成
 8. ログイン画面の作成(コンポーネント分割)
+9. ログイン機能の実装
 
 ### Links
 
@@ -18,3 +19,5 @@
 - [Chakra UI](https://chakra-ui.com/)
 
 - [Chakra UI/ Default Theme](https://chakra-ui.com/docs/styled-system/theme)
+
+- [JSONPlaceholder/ users](https://jsonplaceholder.typicode.com/users)
